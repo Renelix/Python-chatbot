@@ -1,4 +1,3 @@
-
 # Inclusione delle librerie.
 
 from chatterbot import ChatBot
@@ -6,7 +5,6 @@ from chatterbot.trainers import ListTrainer
 from chatterbot.comparisons import levenshtein_distance
 from chatterbot.response_selection import get_first_response
 import logging
-
 logging.basicConfig(level=logging.CRITICAL)
 
 
