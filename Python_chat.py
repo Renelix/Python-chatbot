@@ -8,7 +8,7 @@ import logging
 logging.basicConfig(level=logging.CRITICAL)
 
 
-# Inizializzazione dell'oggetto Bot di tipologia ChatBot.
+# Inizializzazione dell'oggetto Bot di tipologia ChatBot..
 
 Bot = ChatBot(
     "James",
@@ -38,3 +38,4 @@ while True:
     except(KeyboardInterrupt, EOFError, SystemExit):
         print("Ciao.")
         break
+
